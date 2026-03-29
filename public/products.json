@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "name": "AI Resume Builder",
+        "description": "Create professional resumes instantly\nOptimized for ATS systems",
+        "price": 0,
+        "period": "one-time",
+        "tag": "popular",
+        "tagType": "popular",
+        "features": [
+            "100+ templates",
+            "ATS optimization",
+            "Export to PDF"
+        ],
+        "icon": "📝"
+    },
+    {
+        "id": 2,
+        "name": "Pro Design Kit",
+        "description": "Premium UI components\nBoost your design workflow",
+        "price": 12,
+        "period": "monthly",
+        "tag": "best seller",
+        "tagType": "best seller",
+        "features": [
+            "500+ UI blocks",
+            "Figma support",
+            "Regular updates"
+        ],
+        "icon": "🎨"
+    },
+    {
+        "id": 3,
+        "name": "Code Assistant AI",
+        "description": "Smart coding suggestions\nSupports multiple languages",
+        "price": 15,
+        "period": "monthly",
+        "tag": "new",
+        "tagType": "new",
+        "features": [
+            "Auto code completion",
+            "Bug detection",
+            "Multi-language support"
+        ],
+        "icon": "💻"
+    },
+    {
+        "id": 4,
+        "name": "SEO Booster Tool",
+        "description": "Improve website ranking\nAnalyze keywords easily",
+        "price": 25,
+        "period": "monthly",
+        "tag": "popular",
+        "tagType": "popular",
+        "features": [
+            "Keyword research",
+            "Site audit",
+            "Competitor analysis"
+        ],
+        "icon": "📈"
+    },
+    {
+        "id": 5,
+        "name": "Social Media Scheduler",
+        "description": "Plan posts in advance\nManage all platforms together",
+        "price": 10,
+        "period": "monthly",
+        "tag": "best seller",
+        "tagType": "best seller",
+        "features": [
+            "Auto scheduling",
+            "Multi-platform support",
+            "Analytics dashboard"
+        ],
+        "icon": "📅"
+    },
+    {
+        "id": 6,
+        "name": "Online Course Builder",
+        "description": "Create and sell courses\nNo coding required",
+        "price": 49,
+        "period": "yearly",
+        "tag": "new",
+        "tagType": "new",
+        "features": [
+            "Drag & drop builder",
+            "Payment integration",
+            "Student dashboard"
+        ],
+        "icon": "🎓"
+    },
+    {
+        "id": 7,
+        "name": "Cloud Storage Pro",
+        "description": "Secure file storage\nAccess anywhere anytime",
+        "price": 5,
+        "period": "monthly",
+        "tag": "popular",
+        "tagType": "popular",
+        "features": [
+            "1TB storage",
+            "File sharing",
+            "Data encryption"
+        ],
+        "icon": "☁️"
+    },
+    {
+        "id": 8,
+        "name": "Email Marketing Suite",
+        "description": "Grow your audience\nAutomate email campaigns",
+        "price": 20,
+        "period": "monthly",
+        "tag": "best seller",
+        "tagType": "best seller",
+        "features": [
+            "Email templates",
+            "Automation tools",
+            "Performance tracking"
+        ],
+        "icon": "📧"
+    }
+]
