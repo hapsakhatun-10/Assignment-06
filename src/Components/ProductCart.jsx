@@ -1,13 +1,15 @@
 import React, { useState } from 'react';
 
 
-const ProductCart = ({ product }) => {
+const ProductCart = ({ product, carts, setCarts }) => {
 
 
     const [isBuy, setIsBuy] = useState(false)
     // Buy Button Function
+
     const handleBuyBtn = () => {
         setIsBuy(true)
+        setCarts([...carts, product])
     }
 
 

@@ -3,7 +3,7 @@
         "id": 1,
         "name": "AI Resume Builder",
         "description": "Create professional resumes instantly\nOptimized for ATS systems",
-        "price": 0,
+        "price": 10,
         "period": "one-time",
         "tag": "popular",
         "tagType": "popular",
