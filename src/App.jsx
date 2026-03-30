@@ -4,6 +4,7 @@ import Cart from './Components/Cart'
 import Navbar from './Components/Navbar'
 import Products from './Components/Products'
 import { Suspense, useState } from 'react'
+import Banner from './Components/Banner'
 
 
 const getProducts = async () => {
@@ -22,8 +23,9 @@ function App() {
 
   return (
     <>
-      <Navbar />
-      <Tab setActiveTab={setActiveTab} />
+      <Navbar cartLength={carts.length} />
+      <Banner />
+      <Tab setActiveTab={setActiveTab} cartLength={carts.length} />
       {activeTab === "model" && <Products activeTab={activeTab}
         productsPromise={productsPromise} carts={carts}
         setCarts={setCarts} />}
