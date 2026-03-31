@@ -1,5 +1,6 @@
 import React from 'react';
 
+import { ShoppingCart } from 'lucide-react';
 const Cart = ({ carts, setCarts }) => {
 
 
@@ -19,7 +20,21 @@ const Cart = ({ carts, setCarts }) => {
             <h2 className='text-2xl font-bold mb-8'>Your Cart</h2>
 
             {carts.length === 0 ? (
-                <p className='text-3xl text-gray-500'>Cart is Empty</p>
+                <div className="text-3xl text-gray-500 text-center">
+                    <ShoppingCart size={88} className="text-rose-500 mx-auto mb-4" />
+
+                    <h2 className="text-xl font-bold text-rose-500 mb-2">
+                        Your cart is empty
+                    </h2>
+
+                    <p className="text-[0.95rem] leading-relaxed text-slate-500 max-w-md mx-auto">
+                        Looks like you have not added anything to your cart. Go ahead & explore top categories.
+                    </p>
+
+                    <button className="mt-8 px-8 py-3 primary-btn text-white text-sm font-semibold rounded-full  transition-colors">
+                        Start Shopping
+                    </button>
+                </div>
             ) : (
                 <>
                     {carts.map(cart => (

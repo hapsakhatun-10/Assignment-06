@@ -3,9 +3,9 @@ import React from 'react';
 
 const Navbar = ({ cartLength }) => {
     return (
-        <div className='container mx-auto mb-10'>
+        <div className='container mx-auto mb-10 md: px-8 '>
             <div className="navbar flex justify-between items-center  bg-white">
-                <div className="navbar-start flex items-center gap-2 font-bold text-4xl bg-gradient-to-l from-blue-800 to-purple-400 bg-clip-text text-transparent">
+                <div className="navbar-start flex items-center gap-2 font-bold text-4xl primary-text bg-clip-text text-transparent">
                     DigiTool
                 </div>
 

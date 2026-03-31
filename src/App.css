@@ -5,10 +5,10 @@
 
 @layer base {
     .primary-btn {
-        @apply bg-gradient-to-r from-purple-400 to-purple-600 rounded-full font-bold text-white px-4 py-2;
+        @apply bg-linear-to-r from-[#352895] to-purple-500 rounded-full font-bold text-white px-4 py-2;
     }
 
     .primary-text {
-        @apply bg-gradient-to-l from-blue-800 to-purple-400 bg-clip-text text-transparent;
+        @apply bg-linear-to-r from-[#352895] to-purple-600 bg-clip-text text-transparent;
     }
 }

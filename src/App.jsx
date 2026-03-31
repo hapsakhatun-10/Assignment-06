@@ -5,6 +5,9 @@ import Navbar from './Components/Navbar'
 import Products from './Components/Products'
 import { Suspense, useState } from 'react'
 import Banner from './Components/Banner'
+import Steps from './Components/Steps'
+import Pricing from './Components/Pricing'
+import Footer from './Components/Footer'
 
 
 const getProducts = async () => {
@@ -31,6 +34,10 @@ function App() {
         setCarts={setCarts} />}
 
       {activeTab === "cart" && <Cart carts={carts} setCarts={setCarts} />}
+
+      <Steps />
+      <Pricing />
+      <Footer />
     </>
   )
 }
