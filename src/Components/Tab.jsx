@@ -28,6 +28,9 @@ const Tab = ({ setActiveTab, cartLength }) => {
                 />
             </div>
         </div>
+
+
+
     );
 };
 

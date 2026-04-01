@@ -90,7 +90,7 @@ const Pricing = () => {
 
             </section>
 
-            <section className="py-16 text-center bg-gradient-to-r from-blue-900 to-purple-600 text-white">
+            <section className="py-16 text-center rounded-none primary-btn text-white">
                 <h2 className="text-3xl font-bold mb-4">Ready To Transform Your Workflow?</h2>
                 <p className="mb-6">Join thousands of professionals who are already using Digitools to work smarter.Start your free trial today..</p>
 

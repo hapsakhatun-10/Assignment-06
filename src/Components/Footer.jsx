@@ -6,7 +6,7 @@ import { faYoutube, faFacebookF, faTwitter } from '@fortawesome/free-brands-svg-
 const Footer = () => {
     return (
         <div>
-            <footer className="bg-gradient-to-r from-[#0b1a33] to-[#0d1f3f] text-gray-300 py-12">
+            <footer className="bg-linear-to-r from-[#0b1a33] to-[#0d1f3f] text-gray-300 py-12">
                 <div className="container mx-auto mt-20 ">
 
                     <div className="grid md:grid-cols-6 gap-10">
