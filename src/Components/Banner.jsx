@@ -7,7 +7,7 @@ const Banner = () => {
                 <section className='left flex-1 p-4 sm:p-20'>
 
                     <p className=' bg-purple-400 rounded-full inline-block text-[18px] px-6 mb-4'>New: AI-Powered Tools Available</p>
-                    <h1 className='text-4xl sm:text-7xl font-bold mb-4'>Supercharge Your Digital Workflow</h1>
+                    <h1 className='text-4xl sm:text-7xl font-bold mb-4'>Supercharge Your <span className='primary-text'>Digital Workflow</span></h1>
                     <p className='text-[18px] mb-6'>Access premium AI tools, design assets, templates, and productivity
                         software—all in one place. Start creating faster today.
 
@@ -15,7 +15,8 @@ const Banner = () => {
                     </p>
 
                     <div className='flex gap-4'>
-                        <button className='primary-btn'>Explore Products</button>
+                        <button className="btn primary-btn rounded-full p-6 btn-primary">Explore Products</button>
+
                         <button className='primary-text border border-purple-900 rounded-full font-bold px-6'>Watch Demo</button>
 
                     </div>
