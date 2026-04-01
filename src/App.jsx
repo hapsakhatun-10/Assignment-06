@@ -31,7 +31,6 @@ function App() {
     )
   }
 
-  // --- Model tab or other tabs ---
   return (
     <>
       <Navbar cartLength={carts.length} />
