@@ -6,15 +6,15 @@ const Cart = ({ carts = [], setCarts }) => {
 
     const handlePaymentbtn = () => {
         setCarts([]);
-        toast.success("Payment successful!", {
-            position: "top-center", // middle-top
+        toast.success("PAYMENT SUccessfully!", {
+            position: "top-center",
             style: {
-                background: "red",
+                background: "green",
                 color: "white",
                 fontWeight: "bold",
                 fontSize: "16px",
             },
-            duration: 3000,
+            // duration: 2,
         });
     };
 
@@ -27,7 +27,8 @@ const Cart = ({ carts = [], setCarts }) => {
                 fontWeight: "bold",
                 fontSize: "16px",
             },
-            position: "top-center", // shows in middle top
+            position: "top-center",
+
 
         });
     };
@@ -84,7 +85,7 @@ const Cart = ({ carts = [], setCarts }) => {
 
                 Proceed to Checkout
             </button>
-            <Toaster />
+
 
         </div>
     );

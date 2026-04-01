@@ -36,6 +36,7 @@ function App() {
       <Navbar cartLength={carts.length} />
       <Toaster position="top-right" reverseOrder={false} />
       <Banner />
+
       <Tab setActiveTab={setActiveTab} cartLength={carts.length} />
 
       {activeTab === "model" && (
