@@ -9,11 +9,18 @@ const ProductCart = ({ product, carts, setCarts }) => {
     // Buy Button Function
 
     const handleBuyBtn = () => {
-        setIsBuy(true)
-        setCarts([...carts, product])
-        toast.success("Added to Cart!");
+        const exists = carts.find(item => item.id === product.id);
 
-    }
+        if (exists) {
+            toast.error("Already added!");
+            return;
+        }
+
+        setCarts([...carts, product]);
+        setIsBuy(true);
+
+        toast.success("Added to Cart!");
+    };
 
 
 
