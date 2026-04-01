@@ -66,7 +66,7 @@ const Cart = ({ carts = [], setCarts }) => {
 
                     <button
                         onClick={() => handleRemove(cart.id)}
-                        className="text-red-500 font-bold hover:text-red-700 transition"
+                        className="text-red-500 font-bold text-xl hover:text-red-700 transition"
                     >
                         Remove
                     </button>
