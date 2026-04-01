@@ -25,10 +25,12 @@ const ProductCart = ({ product, carts, setCarts }) => {
             </span>
 
             {/* Icon / Image */}
-            <div className="w-12 h-12 sm:w-14 sm:h-14 bg-red-100 flex items-center justify-center rounded-full mb-4 text-2xl sm:text-3xl">
-                jjjjjjj
+            <div className="w-12 h-12 sm:w-14 sm:h-14 bg-red-100 flex items-center justify-center rounded-full mb-4">
+                <img
+                    src={product.image}
+                    className="sm:w-10 sm:h-10 object-contain"
+                />
             </div>
-
             <h2 className="text-xl sm:text-2xl font-bold mb-2">{product.name}</h2>
 
             <p className="text-gray-500 text-sm sm:text-base mb-4">{product.description}</p>

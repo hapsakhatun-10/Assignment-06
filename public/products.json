@@ -1,6 +1,7 @@
 [
     {
         "id": 1,
+        "image": "/public/Group (1).svg",
         "name": "AI Resume Builder",
         "description": "Create professional resumes instantly\nOptimized for ATS systems",
         "price": 10,
@@ -17,6 +18,7 @@
     {
         "id": 2,
         "name": "Pro Design Kit",
+        "image": "/public/Group (2).svg",
         "description": "Premium UI components\nBoost your design workflow",
         "price": 12,
         "period": "monthly",
@@ -32,6 +34,7 @@
     {
         "id": 3,
         "name": "Code Assistant AI",
+        "image": "/public/Group (3).svg",
         "description": "Smart coding suggestions\nSupports multiple languages",
         "price": 15,
         "period": "monthly",
@@ -47,6 +50,7 @@
     {
         "id": 4,
         "name": "SEO Booster Tool",
+        "image": "/public/Group (1).svg",
         "description": "Improve website ranking\nAnalyze keywords easily",
         "price": 25,
         "period": "monthly",
@@ -62,6 +66,7 @@
     {
         "id": 5,
         "name": "Social Media Scheduler",
+        "image": "/public/Group (3).svg",
         "description": "Plan posts in advance\nManage all platforms together",
         "price": 10,
         "period": "monthly",
@@ -77,6 +82,7 @@
     {
         "id": 6,
         "name": "Online Course Builder",
+        "image": "/public/Group (2).svg",
         "description": "Create and sell courses\nNo coding required",
         "price": 49,
         "period": "yearly",
@@ -92,6 +98,7 @@
     {
         "id": 7,
         "name": "Cloud Storage Pro",
+        "image": "/public/Group (1).svg",
         "description": "Secure file storage\nAccess anywhere anytime",
         "price": 5,
         "period": "monthly",
@@ -107,6 +114,23 @@
     {
         "id": 8,
         "name": "Email Marketing Suite",
+        "image": "/public/Group (2).svg",
+        "description": "Grow your audience\nAutomate email campaigns",
+        "price": 20,
+        "period": "monthly",
+        "tag": "best seller",
+        "tagType": "best seller",
+        "features": [
+            "Email templates",
+            "Automation tools",
+            "Performance tracking"
+        ],
+        "icon": "📧"
+    },
+    {
+        "id": 9,
+        "name": "Email Marketing Suite",
+        "image": "/public/Group (3).svg",
         "description": "Grow your audience\nAutomate email campaigns",
         "price": 20,
         "period": "monthly",
