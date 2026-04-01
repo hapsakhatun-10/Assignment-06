@@ -23,18 +23,30 @@ function App() {
   const [carts, setCarts] = useState([])
 
   // --- Cart tab logic ---
+
   if (activeTab === "cart") {
-    return carts.length > 0 ? (
-      <Cart carts={carts} setCarts={setCarts} />
-    ) : (
-      <ShoppingCartPage setActiveTab={setActiveTab} />
-    )
+    return (
+      <>
+        <Navbar cartLength={carts.length} />
+
+        {carts.length > 0 ? (
+          <Cart carts={carts} setCarts={setCarts} />
+        ) : (
+          <ShoppingCartPage setActiveTab={setActiveTab} />
+        )}
+
+        <Toaster position="top-right" />
+      </>
+    );
   }
 
+  // 👉 Default view
   return (
     <>
       <Navbar cartLength={carts.length} />
+
       <Toaster position="top-right" reverseOrder={false} />
+
       <Banner />
 
       <Tab setActiveTab={setActiveTab} cartLength={carts.length} />
@@ -52,7 +64,9 @@ function App() {
       <Pricing />
       <Footer />
     </>
-  )
+  );
 }
+
+
 
 export default App

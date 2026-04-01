@@ -1,5 +1,6 @@
 import React from 'react';
 import { ShoppingCart } from 'lucide-react';
+import { Toaster } from "react-hot-toast";
 
 
 const ShoppingCartPage = ({ setActiveTab }) => {
@@ -24,6 +25,7 @@ const ShoppingCartPage = ({ setActiveTab }) => {
                     className="mt-8 px-8 py-3 primary-btn text-white text-sm font-semibold rounded-full transition-colors">
                     Start Shopping
                 </button>
+                <Toaster position="top-right" reverseOrder={false} />
 
             </div>
         </div>
